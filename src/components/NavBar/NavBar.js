@@ -1,29 +1,27 @@
+import CartWidget from "../CartWidget/CartWidget";
 import "./NavBar.css";
-
 const NavBar = () => {
   return (
-      <div className="navbar" >
+    <div className="navbar">
+      <div className="logo">SNEAKER DAILY</div>
 
-      
-        <nav className="menu">
+      <nav className="menu">
         <ul>
-            <li>
+          <li>
             <a href="index.html">home</a>
-            </li>
-            <li>
+          </li>
+          <li>
             <a href="index.html">collection</a>
-            </li>
-            <li>
+          </li>
+          <li>
             <a href="index.html">market</a>
-            </li>
-            <li>
+          </li>
+          <li>
             <a href="index.html">profile</a>
-            </li>
+          </li>
         </ul>
-        </nav>
-
-        <div className="logo" > SNEAKERS DAILY </div>
-
+      </nav>
+      <CartWidget />
     </div>
   );
 };
