@@ -1,0 +1,63 @@
+.counter {
+  font-size: 18px;
+  display: block;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.count {
+  font-weight: 500;
+  margin-top: 10px;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.button {
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
+  border-width: 2px;
+  border-color: rgb(231, 231, 231);
+  border-style: solid;
+}
+
+.button button {
+  border-width: 0px;
+  text-decoration: none;
+  border-radius: 20px;
+  font-weight: 400;
+  color: var(--Gris-items);
+  background-color: white;
+  color: rgb(255, 119, 142);
+  font-size: 25px;
+}
+
+.button button:hover {
+  cursor: pointer;
+}
+
+.cartButton {
+  border-width: 0px;
+  text-decoration: none;
+  border-radius: 20px;
+  font-weight: 700;
+  color: var(--Gris-items);
+  background-color: white;
+  color: rgb(102, 102, 102);
+  font-size: 14px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  border-width: 2px;
+  border-color: rgb(231, 231, 231);
+  border-style: solid;
+  width: 100%;
+  text-transform: uppercase;
+}
+
+.cartButton:hover {
+  background-color: rgb(251, 194, 204);
+  cursor: pointer;
+}
