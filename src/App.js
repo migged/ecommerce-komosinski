@@ -1,7 +1,6 @@
 import React, { Component } from "react";
-import ItemBox from "./components/ItemBox/ItemBox";
-import ItemlistContainer from "./components/ItemListContainer/ItemListContainer";
 import NavBar from "./components/NavBar/NavBar";
+import ItemlistContainer from "./components/ItemListContainer/ItemListContainer";
 
 class App extends Component {
   render() {
@@ -9,7 +8,6 @@ class App extends Component {
       <div>
         <NavBar />
         <ItemlistContainer />
-        <ItemBox />
       </div>
     );
   }

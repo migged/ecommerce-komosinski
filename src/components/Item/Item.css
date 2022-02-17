@@ -1,0 +1,45 @@
+.box {
+  background-color: rgb(248, 244, 244);
+  width: 300px;
+  /*   height: 200px;
+   */
+  margin: 20px;
+  padding: 20px;
+  display: block;
+  font-size: 20px;
+  color: rgb(97, 97, 97);
+  box-shadow: 0px 0px 8px 0.1px rgba(0, 0, 0, 0.23);
+  border-radius: 10px;
+}
+
+.item {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.description {
+  font-size: 16px;
+  margin-top: 10px;
+  margin-top: 10px;
+}
+
+.description:hover {
+  cursor: pointer;
+  color: pink;
+}
+
+.boxImage {
+  width: 100%;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 10px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

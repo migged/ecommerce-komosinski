@@ -39,6 +39,7 @@ const ItemCount = ({ stock = 10, initial = 0 }) => {
       <button className="count cartButton" onClick={onAddValidation}>
         Agregar al carrito
       </button>
+      <div className="stock">Disponibles: {stock}</div>
     </div>
   );
 };
