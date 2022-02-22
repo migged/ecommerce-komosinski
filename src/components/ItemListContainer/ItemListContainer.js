@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import Item from "../Item/Item";
 import "./ItemListContainer.css";
+import ItemList from "../ItemList/ItemList";
 
 const items = [
   {
@@ -57,23 +57,9 @@ const ItemlistContainer = () => {
 
   return (
     <>
-      <div className="container">
-        <div className="listTittle">Ultimos lanzamientos</div>
-        <div className="list">
-          {items.map((items) => {
-            return (
-              <Item
-                key={items.id}
-                id={items.id}
-                tittle={items.tittle}
-                pictureUrl={items.pictureUrl}
-                price={items.price}
-                stock={items.stock}
-              />
-            );
-          })}
-        </div>
-      </div>
+      return (
+      <ItemList items={items} />
+      );
     </>
   );
 };
