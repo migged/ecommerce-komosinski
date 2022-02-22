@@ -4,7 +4,6 @@ import "./ItemList.css";
 const ItemList = ({ items }) => {
   return (
     <>
-      console.log(items);
       <div className="container">
         <div className="listTittle">Ultimos lanzamientos</div>
         <div className="list">
