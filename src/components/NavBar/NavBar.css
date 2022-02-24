@@ -1,56 +1,56 @@
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
 }
-
-
 
 .logo {
-    display: flex;
-    font-size: 20px;
-    font-weight: 500;
-    color: black;
-    letter-spacing: 0.2px;
-    text-align: center;
-    text-transform: uppercase;
-    text-decoration: none;
-    padding: 12px 2px;
-    margin-left: 10px;
-    margin-right: 10px;
+  display: flex;
+  font-size: 20px;
+  font-weight: 500;
+  color: black;
+  letter-spacing: 0.2px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 12px 2px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
-
-
 .menu {
-    display: flex;
-    justify-content: flex-start;
-  }
-  
-  .menu ul {
-    margin: 0;
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: flex-start;
-  }
-  
-  .menu li:hover {
-    background: #f3a9b3;
-    color: white;
-  }
-  
-  .menu li a {
-    display: flex;
-    font-size: 18px;
-    font-weight: 500;
-    color: var(--negro);
-    letter-spacing: 0.2px;
-    text-align: center;
-    text-transform: uppercase;
-    text-decoration: none;
-    padding: 12px 2px;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-  
+  display: flex;
+  justify-content: flex-start;
+}
+
+.menu ul {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.menu li:hover {
+  color: #f3a9b3;
+}
+
+.menuActive {
+  background: #f3a9b3 !important;
+  color: white !important;
+  text-decoration: none;
+}
+
+.menu li a {
+  display: flex;
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--negro);
+  letter-spacing: 0.2px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 12px 2px;
+  margin-left: 10px;
+  margin-right: 10px;
+}

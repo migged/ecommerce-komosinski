@@ -24,11 +24,6 @@
   margin-top: 10px;
 }
 
-.description:hover {
-  cursor: pointer;
-  color: pink;
-}
-
 .boxImage {
   width: 100%;
 }
@@ -42,4 +37,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.link {
+  text-decoration: none;
 }
