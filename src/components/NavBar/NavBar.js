@@ -15,7 +15,7 @@ const NavBar = () => {
         <ul>
           <li>
             <NavLink
-              to={`/category/categoryId1`}
+              to={`/`}
               className={({ isActive }) => (isActive ? "menuActive" : "menu")}
             >
               home
@@ -23,27 +23,19 @@ const NavBar = () => {
           </li>
           <li>
             <NavLink
-              to={`/category/categoryId2`}
+              to={`/category/NEW`}
               className={({ isActive }) => (isActive ? "menuActive" : "menu")}
             >
-              collection
+              new-collection
             </NavLink>
           </li>
           <li>
             <NavLink
-              to={`/category/categoryId3`}
+              to={`/category/SALE`}
               className={({ isActive }) => (isActive ? "menuActive" : "menu")}
             >
               {" "}
-              market
-            </NavLink>
-          </li>
-          <li>
-            <NavLink
-              to={`/category/categoryId4`}
-              className={({ isActive }) => (isActive ? "menuActive" : "menu")}
-            >
-              profile
+              sale
             </NavLink>
           </li>
         </ul>

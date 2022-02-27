@@ -12,7 +12,7 @@ class App extends Component {
           <NavBar />
           <Routes>
             <Route path="/" element={<ItemlistContainer />} />
-            <Route path="/category/:id" element={<ItemlistContainer />} />
+            <Route path="/category/:type" element={<ItemlistContainer />} />
             <Route path="/item/:id" element={<ItemDetailContainer />} />
           </Routes>
         </div>
