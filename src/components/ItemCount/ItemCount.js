@@ -1,10 +1,8 @@
 import { useState } from "react";
 import "./ItemCount.css";
 
-const ItemCount = ({ stock = 10, initial = 0 }) => {
+const ItemCount = ({ stock = 10, initial = 0, onAdd }) => {
   const [count, setCount] = useState(initial);
-  console.log(stock);
-  console.log(initial);
 
   const decrement = () => {
     if (count > initial) {
@@ -21,6 +19,7 @@ const ItemCount = ({ stock = 10, initial = 0 }) => {
   const onAddValidation = () => {
     if (count <= stock && count !== 0) {
       console.log("agregado al carrito");
+      onAdd(count);
     } else {
       console.log("no hay stock suficiente");
     }
