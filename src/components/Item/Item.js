@@ -13,7 +13,7 @@ const item = ({ id, tittle, price, pictureUrl, stock }) => {
         <div className="center">${price}.00</div>
       </div>
 
-      <ItemCount stock={stock} />
+      {/* <ItemCount stock={stock} /> */}
 
       <div className="description center">
         <Link to={`/item/${id}`}>more info</Link>

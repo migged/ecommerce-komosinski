@@ -1,12 +1,12 @@
-import React, { Component } from "react";
 import NavBar from "./components/NavBar/NavBar";
 import ItemlistContainer from "./components/ItemListContainer/ItemListContainer";
 import ItemDetailContainer from "./components/ItemDetailContainer.js/ItemDetailContainer";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { CartContextProvider } from "./context/CartContext";
 
-class App extends Component {
-  render() {
-    return (
+const App = () => {
+  return (
+    <CartContextProvider>
       <BrowserRouter>
         <div>
           <NavBar />
@@ -17,8 +17,8 @@ class App extends Component {
           </Routes>
         </div>
       </BrowserRouter>
-    );
-  }
-}
+    </CartContextProvider>
+  );
+};
 
 export default App;
